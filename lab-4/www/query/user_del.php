@@ -9,4 +9,5 @@ try {
     $mysqli->query($sql);
 } catch (Exception $e) {
     echo $e->getMessage();
+    
 }

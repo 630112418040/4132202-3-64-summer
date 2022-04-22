@@ -12,4 +12,5 @@ try {
     // $mysqli->set_charset("utf8")
 } catch (Exception $e) {
     echo $e->getMessage();
-}
+    
+} 

@@ -8,7 +8,7 @@ services:
     ports:
       - "3306:3306"
   nginx:
-    image: 630112418040/4132202-3-64-lab3:lastest
+    image: sahaphop2544/4132202-3-64-lab3:lastest
     ports:
       - "8000:80"
     volumes:
@@ -17,3 +17,4 @@ services:
       - mysql  
 
  
+  
